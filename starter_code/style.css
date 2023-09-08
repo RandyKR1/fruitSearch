@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.search-container input:focus {
+  border:25px;
+  border-color: black;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  color: rgba(245, 245, 245, 0.853);
+  font-family: 'Luckiest Guy', cursive;
+  padding-bottom: 0;
+  text-transform: lowercase;
+  letter-spacing: 5px;
+}
+
+body {
+  background: linear-gradient(100deg,cyan, whitesmoke);
+  font-family: 'Luckiest Guy', cursive;
+}
+
+
+.search-container {
+  position: relative;
+  top: 50px;
+  border: none;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 35%;
+  padding-top: 30;
+  padding-bottom: 15px;
+  padding-left: 0px;
+  text-align: center;
+  font-size: 1.4em;
+  transition: 1s ease;
+  font-family: 'Luckiest Guy', cursive;
+  color: black;
+  position: relative;
+  background: linear-gradient(100deg,blueviolet, rgb(234, 0, 255));
+}
+
+.search-container input {
+  position: relative;
+  top: 8px;
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+  color: black;
+  font-family: 'Luckiest Guy', cursive;
+  background: linear-gradient(135deg, lightgrey, whitesmoke);
+  font-size: smaller;
+}
+
+.search-container .suggestions {
+  background: linear-gradient(100deg,blueviolet, rgb(234, 0, 255));
+  border-radius: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0; 
+  border-radius: 50px;
+}
+
+ul li {
+  color: rgba(245, 245, 245, 0.853);
+  font-family: 'Luckiest Guy', cursive;
+  list-style-type: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+ul li:hover {
+  background: rgba(245, 245, 245, 0.24);
+  margin:0;
+}
