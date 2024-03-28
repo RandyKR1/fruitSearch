@@ -28,7 +28,7 @@ function updateSuggestions(results) {
 
 
 function searchHandler(e) {
-    const inputVal = e.target.value.trim();
+    const inputVal = e.target.value.trim();  // .trim() removes any white space around a string
     if (inputVal === '' || e.key === 'Enter') { // Check if input is empty or contains only whitespace
         suggestions.innerHTML = ''; // If input is empty or Enter key is pressed, clear the suggestions
     } else {
